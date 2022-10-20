@@ -101,13 +101,12 @@ header{
 
 /* SECTION 0 */
 .section-0{
-  width: 85%;
   height: 75px;
   background-color: #0000009d;
   position: fixed;
   right: 0;
   top: 0;
-  left: 15%;
+  left: 218px;
 }
 .section-0 button{
     border: 2px solid whitesmoke;
