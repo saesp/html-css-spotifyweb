@@ -142,6 +142,7 @@ main{
     list-style-type: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .ul-main a{
     text-decoration: none;
