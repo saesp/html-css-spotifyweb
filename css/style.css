@@ -174,20 +174,23 @@ main section span{
     width: calc(115% / 6 - 70px);
     margin: 0 10px;
     text-align: center;
-    position: relative;
 }
 .card img{
-    width: 100%;
+    width: 172px;
     margin-bottom: 5px;
 }
-.card .fa-circle-play{
+.played-img{
+    width: 172px;
+    position: relative;
+}
+.played-img .fa-circle-play{
     display: none;
 }
-.card:hover .fa-circle-play{
+.played-img:hover .fa-circle-play{
     display: inline-block;
     position: absolute;
     font-size: 50px;
-    top: 43%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
