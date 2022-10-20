@@ -21,7 +21,7 @@ h3{
 
 /* HEADER */
 header{
-    width: 15%;
+    width: 218px;
     background-color: #000000;
     position: fixed;
     z-index: 800;
@@ -128,8 +128,8 @@ header{
 /* MAIN */
 main{
     background-color: #141922;
-    max-width: 85%;
-    margin-left: 15%;
+    /* max-width: 85%; */
+    margin-left: 218px;
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -171,16 +171,16 @@ main section span{
     margin-top: 20px;
 }
 .card{
-    width: calc(115% / 6 - 70px);
+    width: 185px;
     margin: 0 10px;
     text-align: center;
 }
 .card img{
-    width: 172px;
+    width: 185px;
     margin-bottom: 5px;
 }
 .played-img{
-    width: 172px;
+    width: 185px;
     position: relative;
 }
 .played-img .fa-circle-play{
