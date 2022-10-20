@@ -54,6 +54,10 @@ header{
 .ul-header a{
     color: #ffffff80;
 }
+
+.ul-header a:hover{
+    color: white;
+}
 .ul-header i{
     margin-right: 7px;
     font-size: 18px;
@@ -74,6 +78,12 @@ header{
 .end-header .small-font{
     color: #ffffff80;
 }
+.end-header .small-font:hover{
+    color: white;
+}
+.end-header i:hover{
+    color: white;
+}
 .fa-circle-down{
     margin-right: 7px;
 }
@@ -87,6 +97,8 @@ header{
     width: 100%;
     margin: 10px 0 20px;
 }
+
+
 /* SECTION 0 */
 .section-0{
   width: 85%;
@@ -106,17 +118,17 @@ header{
     right: 0;
     top: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+.section-0 a{
+   color: white;
+   text-decoration: none;
+ }
 
-  .section-0 a{
-    color: white;
-    text-decoration: none;
-  }
 
 /* MAIN */
 main{
     background-color: #141922;
-    width: 85%;
+    max-width: 85%;
     margin-left: 15%;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -137,6 +149,9 @@ main{
     color: #ffffff80;
     margin: 0 15px;
     font-size: 12px;
+}
+.ul-main a:hover{
+    color: white;
 }
 
 /* section 1 - 2 - 3*/
@@ -164,6 +179,23 @@ main section span{
     width: 100%;
     margin-bottom: 5px;
 }
+.card .fa-circle-play{
+    display: none;
+}
+.card div:hover{
+    position: relative;
+}
+.card .fa-circle-play:hover{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card img:hover{
+    filter: opacity(0.4);
+}
 .container-singer img{
     border-radius: 100%;
 }
@@ -189,6 +221,7 @@ footer{
     margin: auto;
 }
 
+/* sec 1 */
 .sec-foot-1{
     display: flex;
     position: absolute;
@@ -216,6 +249,11 @@ footer{
     color: #ffffff80;
     margin: 0 5px;
 }
+.sec-foot-2 i:hover{
+    color: white;
+}
+
+/* sec 3 */
 .sec-foot-3{
     display: flex;
     flex-direction: column;
@@ -226,12 +264,21 @@ footer{
 }
 
 .commands i{
-    margin: 0 10px;
+    margin: 0 12px;
     font-size: 14px;
+    transition: all 1s ease 0;
+}
+.commands i:hover{
+    font-size: 18px;
+    transition: all 1s ease 0;
 }
 .commands .fa-circle-play{
     font-size: 24px;
     padding-bottom: 10px;
+}
+.commands .fa-circle-play:hover{
+    font-size: 28px;
+    transition: all 1s ease 0;
 }
 
 .time{
@@ -257,6 +304,10 @@ footer{
 .sec-foot-4 i{
     margin: 0 7px;
     font-size: 10px;
+} 
+.sec-foot-4 i:hover{
+    font-size: 12px;
+    transition: all 1s ease 0;
 } 
 .border2{
     width: 130px;
