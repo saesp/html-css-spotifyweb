@@ -1,11 +1,96 @@
 /* TABLET */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
+    .ul-main li{
+        margin-bottom: 30px;
+    }
     
 .card{
-    width: 185px;
-    margin: 0 10px;
-    text-align: center;
+    width: calc(100% / 2 -10px);
+    margin-bottom: 20px;
 }
-} */
+.sec-foot-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.border1{
+    width: 225px;
+}
+}
 
 /* MOBILE */
+
+@media screen and (max-width: 500px) {
+    /* header */
+    header{
+        width: 50px;
+    }
+    .container-header{
+        display: none;
+    }
+    .container-header-mobile{
+        display: block;
+        margin: 10px auto;
+        
+    }
+    .container-header-mobile ul{
+        margin-bottom: 420px;
+        
+    }
+    .spotify i{
+        font-size: 33px;
+        margin-bottom: 13px;
+    }
+    .container-header-mobile .home, .spotify{
+        color: white;
+    }
+    .container-header-mobile li{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .container-header-mobile a{
+        font-size: 25px;
+    }
+    .end-header-mobile{
+        text-align: center;
+    }
+    .end-header-mobile .fa-circle-down{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .fa-circle-user{
+        font-size: 25px;
+    }
+
+    /* section 0 */
+    .section-0{
+        left: 50px;
+    }
+    
+
+    /* main */
+    main{
+        margin-left: 50px;
+    }
+    .card{
+        width: 175px;
+        margin: 0 5px;
+        text-align: center;
+    }
+    .card img{
+        width: 175px;
+        margin-bottom: 5px;
+    }
+    .played-img{
+        width: 175px;
+        position: relative;
+    }
+    .sec-foot-2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .border1{
+        width: 100px;
+    }
+    }
