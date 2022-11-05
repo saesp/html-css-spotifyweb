@@ -19,6 +19,7 @@ h3{
     font-size: 13.5px;
 }
 
+
 /* HEADER */
 header{
     width: 218px;
@@ -44,19 +45,16 @@ header{
     text-decoration: none;
     color: white;
 }
-
 .container-header ul{
     padding: 15px 0;
     list-style-type: none;
 }
-
 .ul-header li{
     margin-top: 10px;
 }
 .ul-header a{
     color: #ffffff80;
 }
-
 .ul-header a:hover{
     color: white;
 }
@@ -67,7 +65,6 @@ header{
 .ul-header .home{
     color: white;
 }
-
 .ul-header .border-green{
     height: 20px;
     border-left: 3px solid rgb(0, 197, 0);
@@ -121,7 +118,7 @@ header{
 }
 .section-0 button{
     border: 2px solid whitesmoke;
-    border-radius: 35%;
+    border-radius: 35px;
     padding: 12px 30px;
     background-color:#0000009d;
     position: absolute;
@@ -129,6 +126,11 @@ header{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.section-0 button:hover{
+    font-size: 14px;
+    transition: all 1s ease 0;
+    cursor: grab;
+} 
 .section-0 a{
    color: white;
    text-decoration: none;
@@ -143,7 +145,7 @@ main{
     padding-bottom: 75px;
 }
 
-  /* nav main */
+/* nav main */
 .nav-main{
     padding: 20px;
     margin: auto;
@@ -217,6 +219,7 @@ main section span{
     border-radius: 100%;
 }
 
+
 /* FOOTER */
 footer{
     width: 100%;
@@ -253,25 +256,31 @@ footer{
 .song div{
     font-size: 12px;
 }
+.song div:hover{
+    cursor: grab;
+} 
 .song span{
     font-size: 10px;
     color: #ffffff80;
+}
+.song span:hover{
+    border-bottom: 0.5px solid white;
+    color: white;
+    cursor: grab;
 } 
-
-
-.sec-foot-2{
+.foot-heart{
     margin-left: 30px;
 }
-.sec-foot-2 i{
+.foot-heart i{
     color: #ffffff80;
     margin: 0 5px;
 }
-.sec-foot-2 i:hover{
+.foot-heart i:hover{
     color: white;
 }
 
-/* sec 3 */
-.sec-foot-3{
+/* sec 2 */
+.sec-foot-2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,57 +288,45 @@ footer{
 .commands{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
-
 .commands i{
+    color: #ffffff80;
     margin: 0 12px;
     font-size: 14px;
-    transition: all 1s ease 0;
 }
 .commands i:hover{
-    font-size: 18px;
-    transition: all 1s ease 0;
+    color: white;
     cursor: grab;
 }
 .commands .fa-circle-play{
+    color: white;
     font-size: 24px;
     padding-bottom: 10px;
 }
-.commands .fa-circle-play:hover{
-    font-size: 28px;
-    transition: all 1s ease 0;
-    cursor: grab;
-}
-
 .time{
     display: flex;
-    /* position: relative; */
 }
 .min{
     font-size: 10px;
 }
 .border-footer{
     border-bottom: 4px solid white;
-    border-radius: 5%;
+    border-radius: 2px;
     margin: 0 20px;
 }
 .border1{
     width: 400px;
 }
-/* sec 4 */
-.sec-foot-4{
-    /* position: absolute; */
+
+/* sec 3 */
+.sec-foot-3{
     display: flex;
-    /* right: 0; */
 } 
-.sec-foot-4 i{
+.sec-foot-3 i{
     margin: 0 7px;
     font-size: 10px;
 } 
-.sec-foot-4 i:hover{
-    font-size: 12px;
-    transition: all 1s ease 0;
+.sec-foot-3 i:hover{
     cursor: grab;
 } 
 .border2{

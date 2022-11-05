@@ -3,24 +3,23 @@
     .ul-main li{
         margin-bottom: 30px;
     }
-    
-.card{
+    .card{
     width: calc(100% / 2 -10px);
     margin-bottom: 20px;
-}
-.sec-foot-2{
+    }
+    .foot-heart{
     display: flex;
     flex-direction: column;
+    }
+    .border1{
+    width: 225px;
+    }
 }
 
-.border1{
-    width: 225px;
-}
-}
 
 /* MOBILE */
-
 @media screen and (max-width: 500px) {
+
     /* header */
     header{
         width: 50px;
@@ -31,11 +30,13 @@
     .container-header-mobile{
         display: block;
         margin: 10px auto;
-        
+    }
+    .container-header-mobile i:hover{
+        color: white;
+        cursor: grab;
     }
     .container-header-mobile ul{
         margin-bottom: 420px;
-        
     }
     .spotify i{
         font-size: 33px;
@@ -67,7 +68,6 @@
         left: 50px;
     }
     
-
     /* main */
     main{
         margin-left: 50px;
@@ -77,6 +77,9 @@
         margin: 0 5px;
         text-align: center;
     }
+    .played{
+        margin-bottom: 10px;
+    }
     .card img{
         width: 175px;
         margin-bottom: 5px;
@@ -85,12 +88,11 @@
         width: 175px;
         position: relative;
     }
-    .sec-foot-2{
+    .foot-heart{
         display: flex;
         flex-direction: column;
     }
-    
     .border1{
         width: 100px;
     }
-    }
+}
