@@ -239,7 +239,7 @@ footer{
     margin: auto;
 }
 .container-footer section{
-    margin: 0 10px;
+    margin: 0 9px;
 }
 
 /* sec 1 */
@@ -341,10 +341,12 @@ footer{
     align-items: center;
 } 
 .sec-foot-3 i{
-    margin: 0 7px;
+    color: #ffffff80;
+    margin-left: 14px;
     font-size: 10px;
 } 
 .sec-foot-3 i:hover{
+    color: white;
     cursor: grab;
 } 
 .border2{
