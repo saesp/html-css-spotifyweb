@@ -157,9 +157,13 @@ main{
     flex-wrap: wrap;
 }
 .evidenza{
+    color: white;
     padding-bottom: 3px;
     border-bottom: 3px solid #1ed760;
     border-radius: 15%;
+}
+#evid-white{
+    color: white;
 }
 .ul-main a{
     text-decoration: none;
