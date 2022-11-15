@@ -110,6 +110,7 @@
     .foot-heart{
         display: flex;
         flex-direction: column;
+        margin-left: 15px;
     }
     .border1{
         width: calc(400px * 27 / 100);
