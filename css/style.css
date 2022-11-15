@@ -25,7 +25,7 @@ header{
     width: 218px;
     background-color: #000000;
     position: fixed;
-    z-index: 800;
+    z-index: 700;
     left: 0;
     top: 0;
     bottom: 0;
@@ -74,6 +74,9 @@ header{
     border-radius: 20%;
     position: absolute;
     left: 0;
+}
+.ul-header-playlist{
+    overflow-y: auto;
 }
 .fa-plus{
     color: black;
@@ -127,7 +130,6 @@ header{
 .section-0 button:hover{
     font-size: 14px;
     transition: all 1s ease 0;
-    cursor: grab;
 } 
 .section-0 a{
    color: white;
@@ -193,6 +195,7 @@ main section span{
 .card img{
     width: 185px;
     margin-bottom: 5px;
+    cursor: grab;
 }
 .played-img{
     width: 185px;
@@ -211,7 +214,6 @@ main section span{
 }
 .card img:hover{
     filter: opacity(0.4);
-    cursor: grab;
 }
 .container-singer img{
     border-radius: 100%;
@@ -254,18 +256,16 @@ footer{
 }
 .song div{
     font-size: 12px;
-}
-.song div:hover{
     cursor: grab;
-} 
+}
 .song span{
     font-size: 10px;
     color: #ffffff80;
+    cursor: grab;
 }
 .song span:hover{
     border-bottom: 0.5px solid white;
     color: white;
-    cursor: grab;
 } 
 .foot-heart{
     margin-left: 30px;
@@ -294,10 +294,10 @@ footer{
     color: #ffffff80;
     margin: 0 12px;
     font-size: 14px;
+    cursor: grab;
 }
 .commands i:hover{
     color: white;
-    cursor: grab;
 }
 .commands .fa-circle-play{
     color: white;
@@ -315,8 +315,6 @@ footer{
     background-color:#ffffff80;
     border-radius: 2px;
     margin: 0 6px;
-}
-.border-footer:hover{
     cursor: grab;
 }
 .border1{
@@ -346,10 +344,10 @@ footer{
 } 
 .sec-foot-3 i:hover{
     color: white;
-    cursor: grab;
 } 
 .border2{
     width: 130px;
+    cursor: grab;
 }
 .border2 .border-foot-white{
     width: 70%;
