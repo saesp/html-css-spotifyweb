@@ -4,12 +4,12 @@
         margin-bottom: 30px;
     }
     .card{
-    width: calc(100% / 2 -10px);
-    margin-bottom: 20px;
+        width: calc(100% / 2 -10px);
+        margin-bottom: 20px;
     }
     .foot-heart{
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .border1{
     width: calc(400px * 60 / 100);
@@ -18,6 +18,20 @@
         width: calc(130px * 60 / 100);
     }
 }
+@media screen and (max-width: 676px) {
+    .foot-heart{
+        display: none;
+    }
+    .card{
+        margin: 8 5px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .border2{
+        display: none;
+    }
+}
+
 
 
 /* MOBILE */
@@ -115,7 +129,14 @@
     .border1{
         width: calc(400px * 27 / 100);
     }
-    .border2{
+}
+
+@media screen and (max-width: 468px) {
+    .foot-heart{
         display: none;
     }
+    .card{
+        margin: 8 5px;
+    }
 }
+
