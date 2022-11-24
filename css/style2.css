@@ -23,7 +23,7 @@
         display: none;
     }
     .card{
-        margin: 8 5px;
+        margin: 8px 5px;
     }
 }
 @media screen and (max-width: 620px) {
@@ -136,7 +136,16 @@
         display: none;
     }
     .card{
-        margin: 8 5px;
+        margin: 8px 5px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .fa-solid.fa-tv{
+        display: none;
+    }
+    .container-footer section {
+        margin: 0 8px;
     }
 }
 
